@@ -1,0 +1,3 @@
+-keep class com.industry.printer{
+	static public native int close(int );
+}

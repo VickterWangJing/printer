@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="#436EEE"
+    
+    >
+<LinearLayout
+     android:layout_marginLeft="5dp"
+     android:layout_marginRight="5dp"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#436EEE"
+    android:gravity="center"
+   
+    >  
+<TextView
+      android:layout_width="0dp"
+      android:layout_height="50dp"
+      android:layout_weight="1"
+      android:text="Number"
+      android:textColor="#fff"
+       android:background="@drawable/socket_button"
+        android:gravity="center"
+        android:textSize="14sp"
+      />
+<TextView
+     android:layout_width="0dp"
+      android:layout_height="50dp"
+      android:layout_weight="1"
+      android:text="Counts"
+       android:textColor="#fff"
+        android:background="@drawable/socket_button"
+        android:gravity="center"
+         android:textSize="14sp"
+      />
+    <TextView
+    android:layout_width="0dp"
+      android:layout_height="50dp"
+      android:layout_weight="1"
+      android:text="Ink"
+       android:textColor="#fff"
+        android:background="@drawable/socket_button"
+         android:gravity="center"
+          android:textSize="14sp"
+      />
+   
+    <TextView
+     android:layout_width="0dp"
+      android:layout_height="50dp"
+      android:background="@drawable/socket_button"
+      android:text="Command"
+       android:textColor="#fff"
+         android:layout_weight="4"
+          android:gravity="center"
+           android:textSize="14sp"
+      />
+   
+</LinearLayout>
+ <FrameLayout
+         android:id="@+id/frame"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:orientation="vertical" >
+     </FrameLayout>
+      <ListView
+                    android:id="@+id/grid"
+                    style="@style/listFund" />
+ 
+ <Button
+     android:layout_width="fill_parent"
+      android:layout_height="60dp"
+     android:id="@+id/ButBack"
+      android:text="Back"
+      android:background="@drawable/socket_button"
+       android:textColor="#fff"
+       
+      />
+
+</LinearLayout>
+
